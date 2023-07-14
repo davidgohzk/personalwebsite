@@ -6,15 +6,20 @@
 -->
 <html>
   <head>
-	  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DR7ZKQDS21"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    
-    gtag('config', 'G-DR7ZKQDS21');
-  </script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-DR7ZKQDS21"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-DR7ZKQDS21");
+    </script>
     <title>David Goh Zhe Kai</title>
     <meta charset="utf-8" />
     <meta
@@ -51,7 +56,7 @@
       <nav id="nav">
         <ul>
           <li><a href="#intro" class="active">Introduction</a></li>
-          <li><a href="#interests">Interests / What I have done</a></li>
+          <li><a href="#interests">Interests</a></li>
           <li><a href="#experiences">Experiences</a></li>
           <li><a href="#contact">Contact Me!</a></li>
         </ul>
@@ -67,10 +72,10 @@
                 <h2>Hello! I'm David Goh Zhe Kai</h2>
               </header>
               <p>
-                I'm a developer from Singapore. I studied at NUS High School of
-                Math and Science for my secondary and pre-tertiary eduction and
-                currently completing my National Service. I have secured a place
-                in Computer Science at the National University of Singapore
+                I'm a developer from Singapore. I am a student at the National
+                University of Singapore majoring in Computer Science. I studied
+                at NUS High School of Math and Science for my secondary and
+                pre-tertiary eduction
               </p>
               <p>
                 I first started programming when my school introduced Python
@@ -92,7 +97,7 @@
         <!-- Interests -->
         <section id="interests" class="main special">
           <header class="major">
-            <h2>Interests / What I have done</h2>
+            <h2>Interests</h2>
           </header>
           <div class="container">
             <div class="row">
@@ -165,10 +170,107 @@
             <h2>Experiences</h2>
           </header>
           <div class="positions">
-            <div></div>
-          </div>
+            <div class="company">
+              <span class="major image experience"
+                ><img src="images/fabricaai.svg" alt=""
+              /></span>
+              <h3 class="company-name">Fabrica.ai</h3>
+              <h3 class="company-duration">Mar 2023 - Jun 2023</h3>
+            </div>
+            <div class="description">
+              <h2 class="description-title font-weight-bold">
+                Robotic Software Intern
+              </h2>
+              <p class="description-job">
+                Interned as a Robotics Software Engineer and actively
+                contributing to the development of an automatic tile grouting
+                robot.
+              </p>
+              <div class="row text-left">
+                <div class="col">
+                  <ul>
+                    <li>
+                      Developed a robust <b>ROS2</b> node utilising BasicMicro
+                      Roboclaw PID controller to create a debugger for the
+                      robot’s wheel motors.
+                    </li>
+                    <li>
+                      Optimised the operation flow and reliability of the robot
+                      by updating <b>MakeFile</b> and <b>Docker</b> commands.
+                    </li>
+                    <li>
+                      Improved DevOps flow by implementing
+                      <b>pre-commit</b> hooks formatters and linters.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>
+                      Enhanced the navigation logic for the new robot version
+                      using <b>Behavior Trees</b> and <b>ROS2</b> Nodes,
+                      validated through <b>Gazebo</b> simulation.
+                    </li>
+                    <li>
+                      Participated in technical interviews for internship
+                      applicants and provided valuable insights during company
+                      presentation
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <blockquote class="description-quote">
+                As a software intern, David undertook a range of key
+                responsibilities, beyond what students take in other
+                internships, effectively on a level of a junior or medior
+                full-timer. David consistently demonstrates a proactive approach
+                by actively seeking opportunities to enhance existing workflows.
+                <br />
+                <div class="font-weight-bold">
+                  Mr Ronald Luc, Chief Technological Officer
+                </div>
+              </blockquote>
+            </div>
 
-          <div class="positions">
+            <div class="company">
+              <span class="major image experience"
+                ><img src="images/bettersg.png" alt=""
+              /></span>
+              <h3 class="company-name">Better.sg</h3>
+              <h3 class="company-duration">Sep 2021 - Dec 2022</h3>
+            </div>
+            <div class="description">
+              <h2 class="description-title font-weight-bold">
+                Heart2Heart - Software Developer
+              </h2>
+              <p class="description-job">
+                Heart2Heart, an online platform fostering open discussions on
+                societal topics.
+              </p>
+              <div class="row text-left">
+                <div class="col">
+                  <ul>
+                    <li>
+                      Provided expertise and guidance on <b>DevOps</b> and
+                      <b>Cloud Architecture</b>
+                      to optimise the project’s infrastructure and deployment
+                      processes.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>
+                      Designed and implemented a Proof-Of-Concept
+                      <b>Machine Learning</b>
+                      algorithm to promote diversity within groups of 8
+                      individuals by considering various attributes.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             <div class="company">
               <span class="major image experience"
                 ><img src="images/gracet.png" alt=""
@@ -188,35 +290,50 @@
                 <div class="col">
                   <ul>
                     <li>
-                      Worked in a multi-cultural team to deliver a HR management
-                      product.
+                      Collaborated in a multi-national team to develop a HR
+                      management product.
                     </li>
                     <li>
-                      Proposed and implemented the testing flow of the GraphQL
-                      resolvers through Jest and Node.JS.
+                      Introduced and executed a comprehensive testing flow for
+                      <b>GraphQL</b> resolvers, using <b>Jest</b> and
+                      <b>Node.js</b> to ensure the reliability and quality of
+                      the product.
                     </li>
                     <li>
-                      Implemented GraphQL resolver for attendance on Express to
-                      communicate with the MongoDB server using Mongoose.
+                      Implemented <b>GraphQL</b> resolvers for attendance on
+                      <b>Express</b>, utilising Mongoose to establish
+                      communication with the MongoDB server.
                     </li>
-                    <li>Crafted input verification for resolvers using Yup.</li>
+                    <li>
+                      Implemented input verification for resolvers by leveraging
+                      the <b>Yup</b> library to ensure data integrity and
+                      enhancing the overall system’s security.
+                    </li>
                   </ul>
                 </div>
                 <div class="col">
                   <ul>
                     <li>
-                      Built the full stack development of the email verification
-                      using React in the frontend, Apollo to communicate with
-                      the backend and GraphQL in the backend.
-                    </li>
-                    <li>Proposed RBAC framework for authorisation.</li>
-                    <li>
-                      Designed the error handling flow for the back end and
-                      communicated the error with the front end.
+                      Orchestrated the end-to-end development of the email
+                      verification feature by employing <b>React</b> for the
+                      frontend, <b>Apollo</b> for backend communication and
+                      <b>GraphQL</b> for efficient data handling.
                     </li>
                     <li>
-                      Developed the Contact Us page and integrated with the
-                      backend.
+                      Introduced a proposed
+                      <b>Role-Based Access Control (RBAC) </b>
+                      framework for authorisation.
+                    </li>
+                    <li>
+                      Designed a comprehensive error handling flow for the
+                      backend, effectively communicating errors to the frontend,
+                      and ensuring a smooth user experience.
+                    </li>
+                    <li>
+                      Developed and integrated the Contact Us page, establishing
+                      seamless integration with the backend to facilitate
+                      effective communication with users and improve customer
+                      support.
                     </li>
                   </ul>
                 </div>
@@ -243,26 +360,37 @@
               <div class="row text-left">
                 <div class="col">
                   <ul>
-                    <li>Oversaw and led the completion of the project.</li>
                     <li>
-                      Applied machine learning and neural network to improve the
-                      language model and entity extraction in speech to text.
+                      Provided leadership and oversight to ensure the successful
+                      completion of the project.
                     </li>
-                    <li>Wrote a Python script to parse lattices.</li>
+                    <li>
+                      Leveraged <b>machine learning</b> and
+                      <b>neural network</b> techniques to enhance the language
+                      model and entity extraction in the speech-to-text system.
+                    </li>
+                    <li>
+                      Implemented FRAGE, a Long Short-Term Memory (LSTM) neural
+                      network, as the language model for improved performance.
+                    </li>
                   </ul>
                 </div>
                 <div class="col">
                   <ul>
                     <li>
-                      Updated language scores in lattices using a LSTM language
-                      model instead of N-gram language model to achieve better
-                      accuracy.
+                      Developed <b>Python</b> code to parse lattices, enabling
+                      efficient data processing.
                     </li>
                     <li>
-                      Utilised FRAGE, a Long Short-Term Memory (LSTM) neural
-                      network, as the language model.
+                      Upgraded language scores within lattices using an
+                      <b>LSTM</b> language model, resulting in enhanced accuracy
+                      compared to traditional N-gram language models.
                     </li>
-                    <li>Implemented beam search for lattices.</li>
+                    <li>
+                      Implemented <b>beam search</b> algorithm to optimise the
+                      search process within lattices, improving overall system
+                      performance.
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -300,32 +428,36 @@
                 <div class="col">
                   <ul>
                     <li>
-                      Oversaw the arrangement of meeting and direction for the
-                      project.
+                      Directed and organised project meetings, ensuring
+                      effective communication and progress.
                     </li>
                     <li>
-                      Used IDA Pro, a disassembler, to view and process assembly
-                      code.
+                      Utilised <b>IDA Pro</b>, a disassembler, to analyze and
+                      process assembly code as part of the project tasks.
                     </li>
                     <li>
-                      Wrote a Python program that used CParser, a Python module
-                      to parse C, to standardise C code.
+                      Developed a <b>Python</b> program utilizing
+                      <b>CParser</b>, a Python module, to parse and standardize
+                      <b>C</b> code.
                     </li>
                   </ul>
                 </div>
                 <div class="col">
                   <ul>
                     <li>
-                      Decompiled and evaluated on Open Source project (OpenSSL
-                      and Redis)
+                      Decompiled and evaluated Open Source projects such as
+                      <b>OpenSSL</b> and <b>Redis</b> for further analysis and
+                      research purposes.
                     </li>
                     <li>
-                      Achieved high scores for synthetic dataset to show that
-                      neural network can decompile simple C functions.
+                      Demonstrated high scores on synthetic datasets, showcasing
+                      the capability of neural networks in decompiling simple C
+                      functions.
                     </li>
                     <li>
-                      Model could decompile well on short C functions from real
-                      world project
+                      Successfully decompiled short C functions from real-world
+                      projects, highlighting the effectiveness of the developed
+                      model.
                     </li>
                   </ul>
                 </div>
@@ -476,9 +608,7 @@
             <li></li>
           </ul>
         </section>
-        <p class="copyright">
-          &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
-        </p>
+        <p class="copyright">&copy; David Goh Zhe Kai.</p>
       </footer>
     </div>
 
